@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fondos y Superficies */
+  --color-brand-bg: #1A1A1A;
+  --color-brand-surface: #262220;
+  --color-brand-mahogany: #5A2012;
+  --color-brand-border: #85542E;
+
+  /* Acentos y Llamados a la Acción (CTA) */
+  --color-brand-primary: #F7B82F;
+  --color-brand-primary-hover: #E0A21B;
+  --color-brand-gold: #D0AC5F;
+
+  /* Textos */
+  --color-brand-text: #F5F2EB;
+  --color-brand-muted: #C2B9AE;
+
+  /* Conversión Directa */
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #1EBE5D;
+
+  /* Tipografías */
+  --font-display: "Cinzel", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* Estilos base globales */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-text);
+    font-family: var(--font-sans);
+  }
+}
